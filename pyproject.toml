@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "quiz-crawler"
+version = "1"
+description = "Movie Quiz!"
+authors = ["weekwith.me <leedobby@weekwith.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.1.0"
+pydantic = "^1.8.2"
+python-dotenv = "^0.19.2"
+SQLAlchemy = "^1.4.27"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+black = "^21.11b1"
+pre-commit = "^2.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
